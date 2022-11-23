@@ -1,4 +1,4 @@
-#
+spark#
 # Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_enchilada.mk
+    $(LOCAL_DIR)/spark_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_enchilada-user \
-    lineage_enchilada-userdebug \
-    lineage_enchilada-eng
+    spark_enchilada-user \
+    spark_enchilada-userdebug \
+    spark_enchilada-eng
