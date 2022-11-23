@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/enchilada
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := enchilada|OnePlus6
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
